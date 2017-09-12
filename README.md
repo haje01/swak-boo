@@ -1,6 +1,6 @@
 # swak-boo
 
-This is a ut plugin package for Swak.
+This is a output plugin package for Swak.
 
 **SHORT PLUG-IN FEATURE DESCRIPTION GOES HERE**
 
