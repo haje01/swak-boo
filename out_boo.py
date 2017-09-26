@@ -25,10 +25,10 @@ class Boo(Output):
 
 @click.command(help="PLUGIN HELP MESSAGE GOES HERE")
 @click.pass_context
-def main(ctx):
-    """Plugin entry."""
+def new(ctx):
+    """New plugin."""
     return Boo()
 
 
 if __name__ == '__main__':
-    main()
+    new()
