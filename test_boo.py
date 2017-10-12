@@ -1,17 +1,10 @@
-"""Test Boo plugin."""
+"""Test output plugin of Boo."""
 
-import pytest
+from swak import stdplugins as stp
 
-from swak.plugin import DummyOutput
-from swak.event_router import EventRouter
-
-
-@pytest.fixture()
-def def_output():
-    """Create default output and returns it."""
-    return DummyOutput()
+from .o_boo import Boo
 
 
-def test_boo_basic(def_output):
-    """Test basic features of Boo plugin."""
+def test_boo_basic(router):
+    """Test basic features of Boo."""
     pass

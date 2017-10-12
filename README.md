@@ -1,4 +1,4 @@
-# swak-plugin-boo
+# swak_plugin_boo
 
 This is a output plugin package for Swak.
 
